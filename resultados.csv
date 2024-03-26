@@ -1,0 +1,14 @@
+Rodada,Video,Placa Correta,Valor Identificada,Confiança (Placa), Confiança (OCR), Observação
+1,Teste01.mp4,EVD0686,EVD0636, 90%, 80%, Valores vieram separados.
+2,Teste02.mp4,ORE9460,UPE9LFN, 70%, 20%, Necessário abaixar a confiança do texto para capturar.
+3,Teste03.mp4,KWV7G40,KHV7G4, 90%, 70%, Necessário pular resultados com uma letra porque estava detectando um "V" isolado com 90% de confiança.
+4,Teste04.mp4,PNO3894,PN03894, 90%, 80%, Funcionou perfeitamente.
+5,Teste05.mp4,PNO3894,3894, 90%, 80%, PNO detectado com 40% de confiança.
+6,Teste06.mp4,OWO8810,DVD80ID, 80%, 30%, Necessário baixar a confiança de ambos para capturar.
+7,Teste07.mp4,OWO8810,ONO881,90%, 30%, Usando 80% de confiança no texto levou o algoritmo a demorar a se decidir e acabando em um "8810" e um "ONO" com 26%.
+8,Teste08.mp4,OWO8810,JHO8810,90%, 80%, OCR parece ter confundido o pino vermelho acima da placa e localizado um J aonde existe um O.
+9,Teste09.mp4,JBD7A88,JBH7RAP, 90%, 10%, Threshold não funciona com imagens escuras. Necessário ajustar confiança para detectar antes de entrar na garagem.
+10,Teste10.mp4,JBD7A88,JBD7A88, 90%, 70%, Necessário ajustar confiança. Pensando em colher todos os valores em lista e organizar por confiança.
+11,Teste11.mp4,DZW1253,INZK253, 90%, Não utilizado, Passando a armazenar todos os valores.
+12,Teste12.mp4,DZW1253,IZK253, 90%, Não utilizado, Sem comentários.
+13,Teste13.mp4,KZR9I11,2112, 90%, Não utilizado, "RZI9" e "KZ4D" apareceram em segundo e terceiro lugar.
